@@ -31,7 +31,5 @@ class OpenTerminalCommand(sublime_plugin.TextCommand):
     try:
       os.system('cd %s; %s &' % (path, terminal))
 
-      #os.system('nohup %s --working-directory "%s" >/dev/null 2>&1 &' % (terminal, path))
-
     except Exception, e:
       sublime.error_message('Unable to open terminal (%s) because: %s' % (terminal, str(e)))
