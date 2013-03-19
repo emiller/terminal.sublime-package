@@ -1,0 +1,8 @@
+[
+  {
+    "id": "goto",
+    "caption": "Open Terminal Here..",
+    "command": "open_terminal"
+
+  }
+]
