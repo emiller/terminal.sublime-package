@@ -15,7 +15,7 @@ cp Terminal.sublime-package  ~/.config/sublime-text-2/Installed\ Packages/
 
 ### Usage
 
-After installation you'll a new menu entry:
+After installation a new menu entry will be available:
 
     Goto -> Open Terminal Here (CTRL+T)
     
