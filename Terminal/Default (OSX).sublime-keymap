@@ -1,5 +1,5 @@
 [
   {
-    "keys": ["ctrl+t"], "command": "open_terminal"
+    "keys": ["command+t"], "command": "open_terminal"
   }
 ]

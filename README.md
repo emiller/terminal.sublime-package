@@ -19,10 +19,11 @@ After installation a new menu entry will be available:
 
     Goto -> Open Terminal Here (CTRL+T)
     
-While in your editor you can use the hotkey `CTRL+T` to open a terminal at
-the location of the current file being edited.
+While in your editor you can use the hotkey `CTRL+T` (or `COMMAND+T` for OSX)
+to open a terminal at the location of the current file being edited.
 
 ***
 
-_emiller_ _2013-03-19_
+_emiller_  
+_2013-03-19_
 
