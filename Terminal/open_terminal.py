@@ -19,18 +19,17 @@ class OpenTerminalCommand(sublime_plugin.TextCommand):
     terminal = None
 
     if platform.startswith('linux'):
-      terminal = 'cd %s; x-terminal-emulator' % path
+      terminal = 'cd "%s"; nohup x-terminal-emulator 1>/dev/null 2>&1' % path
 
     elif platform.startswith('osx') or platform.startswith('darwin'):
-      terminal = 'open -a Terminal %s' % path
+      terminal = 'nohup open -a Terminal "%s" 1>/dev/null 2>&1' % path
 
     if terminal is None:
       sublime.message_dialog('Sorry, only Linux and OSX are supported currently.') 
       return
 
     try:
-      os.system(terminal)
+      os.system("%s &" % terminal)
 
     except Exception, e:
       sublime.error_message('Unable to open terminal (%s) because: %s' % (terminal, str(e)))
-
