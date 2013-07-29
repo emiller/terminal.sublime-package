@@ -18,10 +18,10 @@ cp Terminal.sublime-package  ~/.config/sublime-text-2/Installed\ Packages/
 After installation a new menu entry will be available:
 
     Goto -> Open Terminal Here (CTRL+T)
-    
-While in your editor you can use the hotkey `CTRL+T` (or `COMMAND+T` for OSX)
-to open a terminal at the location of the current file being edited.
+    Command Palette -> Terminal: Open Terminal Here
 
+While in your editor you can use the hotkey `CTRL+T` (or `COMMAND+T` for OSX)
+to open a terminal at the location of the current file being edited. 
 ***
 
 _emiller_  
